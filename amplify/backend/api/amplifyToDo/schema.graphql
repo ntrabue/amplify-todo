@@ -3,5 +3,4 @@ type Todo @model @auth(rules: [{ allow: owner }]) {
   name: String!
   description: String
   complete: Boolean!
-  owner: String!
 }
